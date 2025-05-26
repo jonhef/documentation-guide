@@ -4,8 +4,9 @@ I write documentation for my projects often and I use my own style for it. This 
 
 
 ### style
-`<anything>` – its description
+`<anything>` - its description
 - functions: `<function name>(*args, **kwargs) : <return type>`. 
+- async functions: `async <function name>(*args, **kwargs) : <return type>`.
 - args should be written in this way: `<name> = <default-value> : <type1> | <type2> | ...`
 - classes: `<class name>(*args, **kwargs) : <return type>`. it's the constructor for the class. you must write all constructors for the class. _functions of classes should be written depends on its static/instance. `<class name>.static_function(<args>)` or `<class name>(<args>).instance_function(<args>)`_
 - global variables or constants: `<name> = <type>(<value>)`
